@@ -1,13 +1,13 @@
 {
-    "name": "Asad Alexa Vc Userbot",
+    "name": "HINATA",
     "description": "A Telegram Userbot To Play Audio And Video Songs in Voice Chat",
-    "logo": "https://telegra.ph/file/7fbaae079e71659672dde.jpg",
+    "logo": "https://te.legra.ph/file/d1ccc90659b4d323ddf32.jpg",
     "keywords": [
         "Telegram",
         "VCBot",
         "MusicPlayer"
     ],
-    "repository": "https://github.com/Lost-In-Dark/TG-MusicPlayer",
+    "repository": "https://github.com/UnoDark/TG-MusicPlayer",
     "env": {
         "SESSION": {
             "description": "Pyrogram String Session @Pyrogram_String_Bot",
