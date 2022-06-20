@@ -55,8 +55,8 @@ async def play(client, m: Message):
    keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("❤️ ᴏᴡɴᴇʀ ❤️", url=f"https://t.me/Dr_Asad_Ali"),
-                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/Shayri_Music_Lovers"),
+                InlineKeyboardButton("❤️ ᴏᴡɴᴇʀ ❤️", url=f"https://t.me/OneUnoOnly"),
+                InlineKeyboardButton("👨‍‍👧‍👦 ɢʀᴏᴜᴘ 👨‍👧‍👦", url=f"https://t.me/Hangawtss"),
             ]
         ]
     )
@@ -105,7 +105,7 @@ async def play(client, m: Message):
                url = search[1]
                hm, ytlink = await ytdl(url)
                if hm==0:
-                  await huehue.edit(f"**YTDL ERROR ⚠️** ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](t.me/Dr_Asad_Ali)", disable_web_page_preview=True)
+                  await huehue.edit(f"**YTDL ERROR ⚠️** ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](t.me/OneUnoOnly)", disable_web_page_preview=True)
                else:
                   if chat_id in QUEUE:
                      pos = add_to_queue(chat_id, songname, ytlink, url, "Audio", 0)
